@@ -1,0 +1,17 @@
+{
+  "name": "j-wood",
+  "description": "A page",
+  "main": "index.html",
+  "authors": [
+    "Alex Kharchenko"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

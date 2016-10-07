@@ -1,0 +1,301 @@
+/*COMMON STYLES*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@font-face {
+  src: url("../fonts/Felt Tip Woman.ttf");
+  font-family: "Felt Tip Wonam";
+}
+
+@font-face {
+  src: url("../fonts/Nexa Bold.otf");
+  font-family: "Nexa Bold";
+}
+
+@font-face {
+  src: url("../fonts/Nexa Light.otf");
+  font-family: "Nexa Light";
+}
+
+.container {
+  width: 83.333%;
+  margin: 0 auto;
+}
+
+.menu {
+  margin: 0 67px;
+  padding: 0;
+  padding-top: 38px;
+  padding-bottom: 34px;
+  border-bottom: 1px solid #fff;
+  list-style-type: none;
+  text-align: center;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu a {
+  padding: 0 25px;
+  font-family: "Nexa Light", Arial, sans-serif;
+  font-size: 24px;
+  color: #f1f1f1;
+  letter-spacing: .025em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+.scroll {
+  padding-bottom: 41px;
+  font-family: "Nexa Bold", Arial, sans-serif;
+  font-size: 18px;
+  letter-spacing: .1em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.scroll .fa {
+  display: block;
+  padding-top: 10px;
+}
+
+
+/*HEADER*/
+
+.header {
+  position: relative;
+  color: #f1f1f1;
+  text-align: center;
+  background: url(../images/header-bg.jpg) center/cover;
+}
+
+.header img:first-of-type {
+  box-sizing: content-box;
+  padding-top: 151px;
+  margin-bottom: 50px;
+}
+
+.header .trade-mark {
+  position: absolute;
+  left: 59.73958%;
+  top: 25.648%;
+  font-family: "Nexa Bold", Arial, sans-serif;
+  font-size: 36px;
+  letter-spacing: .25px;
+  text-transform: uppercase;
+}
+
+.header img:last-of-type {
+  display: block;
+  width: 730px;
+  margin: 0 auto;
+  margin-bottom: 110px;
+}
+
+
+/*ABOUT ME*/
+
+.about-me {
+  color: #202020;
+}
+
+.about-me .menu {
+  border-bottom: 1px solid #bebebe;
+}
+
+.about-me .menu a {
+  color: #cecece;
+}
+
+.about-me .container {
+  padding-top: 75px;
+}
+
+.about-me img:first-of-type {
+  float: left;
+  margin-right: 50px;
+}
+
+.about-me h2 {
+  margin: 0;
+  padding-top: 80px;
+  padding-bottom: 60px;
+  font-family: "Nexa Light", Arial, sans-serif;
+  font-size: 60px;
+  font-weight: normal;
+  line-height: 70px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+.about-me p {
+  margin: 0;
+  margin-bottom: 45px;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 24px;
+  font-weight: lighter;
+  line-height: 50px;
+  letter-spacing: .025em;
+}
+
+.about-me .signature {
+  display: block;
+  font-family: "Felt Tip Woman", Arial, sans-serif;
+  font-size: 36px;
+  line-height: 50px;
+}
+
+.about-me .scroll {
+  clear: both;
+  padding-top: 80px;
+  color: #bebebe;
+}
+
+
+/* PORTFOLIO */
+
+.portfolio {
+  background: url("../images/portfolio-bg.jpg") center/cover no-repeat;
+}
+
+.portfolio .menu a {
+  color: #8f9191;
+}
+
+.portfolio .menu {
+  border-bottom-color: #bebebe;
+}
+
+.portfolio h3 {
+  margin: 75px 0;
+  font: 60px "Nexa Light", Arial, sans-serif;
+  letter-spacing: .1em;
+  color: #f1f1f1;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.portfolio .photos {
+  margin-bottom: 40px;
+}
+
+.portfolio .photos img {
+  margin: 0 42px 42px 0;
+}
+
+.portfolio .photos img:nth-child(5),
+.portfolio .photos img:nth-child(10) {
+  margin-right: 0;
+}
+
+.portfolio .scroll {
+  color: #f1f1f1;
+}
+
+
+/* FOOTER */
+
+.footer {
+  text-align: center;
+}
+
+.footer .menu {
+  border-bottom-color: #bebebe;
+}
+
+.footer .menu a {
+  color: #cecece;
+}
+
+.footer .footer-container {
+  margin: 200px 0;
+}
+
+.footer span {
+  display: block;
+}
+
+.footer .footer-header {
+  margin-bottom: 25px;
+  font: 30px "Nexa Bold", Arial, sans-serif;
+  color: #202020;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+
+.footer .contact {
+  margin-bottom: 52px;
+  font-family: "Nexa Light", Arial, sans-serif;
+  text-transform: uppercase;
+  color: #202020;
+  letter-spacing: .1em;
+}
+
+.footer .email {
+  font-size: 60px;
+}
+
+.footer .phone {
+  font-size: 48px;
+}
+
+.footer .footer-container a:first-of-type {
+  display: inline-block;
+  text-decoration: none;
+  color: #202020;
+}
+
+.footer .footer-container a:first-of-type:hover {
+  text-decoration: underline;
+}
+
+.footer .footer-container a:nth-last-of-type(2) {
+  margin: 0 21px;
+}
+
+.footer .footer-bottom {
+  border-top: 1px solid #bebebe;
+  padding: 40px 0;
+  color: #bebebe;
+  text-align: center;
+}
+
+.footer .footer-bottom span {
+  font: 18px "Nexa Light", Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+@media (min-width: 1350px) {
+  .header .trade-mark {
+    left: 63%;
+    top: 24%;
+  }
+
+  .about-me img {
+    width: 48%;
+    height: auto;
+  }
+
+  .about-me h2 {
+    padding: 0;
+  }
+
+  .about-me p {
+    font-size: 20px;
+    line-height: 40px;
+  }
+
+  .portfolio .photos img {
+    width: 16%;
+    height: auto;
+  }
+}
